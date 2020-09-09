@@ -6,10 +6,6 @@ import android.view.MotionEvent;
 
 import androidx.core.widget.NestedScrollView;
 
-/**
- * Created by stefan on 2017/5/26.
- * Func:用于子类防止父类拦截子类的事件
- */
 public class DisInterceptNestedScrollView extends NestedScrollView {
     public DisInterceptNestedScrollView(Context context) {
         super(context);

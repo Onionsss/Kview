@@ -1,9 +1,3 @@
-/*
- * Copyright (C) 2019,瀚唯网络科技有限公司 All rights reserved.
- * Project：sweetfans
- * Author：马靖乘
- * Date：19-4-3 上午10:51
- */
 
 package com.onion.view;
 
@@ -89,7 +83,7 @@ public final class SizeUtils {
      * unit.
      */
     public static float applyDimension(final float value, final int unit) {
-        DisplayMetrics metrics = KView.INSTANCE.getApp()
+        DisplayMetrics metrics = KView.getApp()
                 .getResources()
                 .getDisplayMetrics();
         switch (unit) {
