@@ -21,10 +21,10 @@ allprojects {
     repositories {
         google()
         jcenter()
-        
+
     }
 }
-tasks.getByPath(":view:javadocRelease").enabled = false
+tasks.getByPath(":KView:javadocRelease").enabled = false
 tasks.getByPath(":KShape:javadocRelease").enabled = false
 task clean(type: Delete) {
     delete rootProject.buildDir
